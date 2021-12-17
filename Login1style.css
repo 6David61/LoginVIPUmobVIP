@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    background: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial,'Times New Roman', sans-serif;
+}
+
+label{
+    color: rgba(0, 0, 0, 0.897);
+    text-decoration: none;
+    font-size: 12px;
+    transition: ease .3s;  
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    
+    position: relative;
+}
+form{
+    padding: 3rem;
+    border-radius: 10px;
+     text-align: center;
+}
+.BLEU{
+    /* PADDING: 1PX; */
+    PADDING-LEFT: 64PX;
+    PADDING-RIGHT: 64PX;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #009;
+    text-align: center;
+}
+
+.BLEU3{
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #009;
+    text-align: center;
+
+}
+.BLEU1{
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #009;
+    text-align: center;
+    
+}
+.BLEU2{
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #009;
+    text-align: center;
+    width:250rem;
+}
+
+a{
+    color: rgb(6 26 169);
+    font-size: 16px;
+    transition: ease .3s;  
+    font: 12px Myriad,Helvetica,Tahoma,Arial,clean,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+
+    box-sizing:
+content-box;
+display:
+inline;
+float:
+none;
+line-height:
+normal;
+position:
+static;
+z-index:
+auto;
+}
+
+.input1{
+    background: none;
+    border:  1px rgba(0, 0, 0, 0.445) solid;
+     color: rgba(0, 0, 0, 0.589);
+       transition:all .3s;
+       border-radius: 3px ;
+       /* border: 0 !important;
+background-color: transparent !important;
+width: 100% !important;
+padding-left: 0 !important;
+padding-right: 0 !important;
+margin-left: 0 !important;
+margin-right: 0 !important; */
+}
+.lab{
+    border: 2px  rgba(0, 0, 0, 0.445) solid;
+    font-weight: bold;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: right;
+    border: 1px solid #CCCCCC;
+}
+.logo{
+    
+    position: absolute;
+    top: 1rem; left: 2rem;  
+    z-index: -1;
+}
+input:hover,
+input[type="email"]:focus{
+    background: rgba(255, 255, 255, .1);
+ }
+ input[type="submit"]{
+    cursor: pointer;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 0 0.3em;
+    display: inline-block;
+    float:none;
+    
+    line-height:normal;
+    
+    position:static;
+    
+    z-index: auto;
+   
+}
+form{
+    position: absolute;
+}
